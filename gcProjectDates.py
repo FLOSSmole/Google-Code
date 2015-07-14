@@ -16,7 +16,7 @@ cursor = db.cursor()
 lines= codecs.open("gcProjectDates.txt", 'r', encoding='utf-8', errors='ignore')
 next (lines)
 for line in lines:
-    print ("current line is %d", linenum)
+    print "current line is:", linenum
     currentLine = line.split(',')
     print(currentLine[0])
     
